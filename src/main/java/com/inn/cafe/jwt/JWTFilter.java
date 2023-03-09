@@ -27,7 +27,7 @@ public class JWTFilter extends OncePerRequestFilter {
     @Autowired
     private CustomerUsersDetailsService customerUsersDetailsService;
 
-    Claims claims = null;
+    private Claims claims = null;
     private String username = null;
 
     @Override
