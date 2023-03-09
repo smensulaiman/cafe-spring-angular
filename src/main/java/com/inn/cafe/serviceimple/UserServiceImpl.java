@@ -66,7 +66,7 @@ public class UserServiceImpl implements UserService {
                             requestMap.get("password")));
             if(auth.isAuthenticated()){
                 if(customerUsersDetailsService.getUserDetail().getStatus().equalsIgnoreCase("true")){
-                    return new ResponseEntity<String>()
+                    //return new ResponseEntity<String>()
                 }
             }
         } catch (Exception e) {
