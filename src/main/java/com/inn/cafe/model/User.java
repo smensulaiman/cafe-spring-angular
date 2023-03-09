@@ -1,8 +1,9 @@
 package com.inn.cafe.model;
 
-import jakarta.persistence.*;
+
 import lombok.Data;
 
+import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Map;
 
