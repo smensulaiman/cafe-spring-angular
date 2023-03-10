@@ -1,4 +1,4 @@
-package com.inn.cafe.model;
+package com.inn.cafe.entity;
 
 
 import lombok.Data;
@@ -6,6 +6,8 @@ import lombok.Data;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Map;
+
+//@NamedQuery(name = "User.getAllUsers", query = "select new")
 
 @Data
 @Entity
